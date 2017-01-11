@@ -1,0 +1,679 @@
+{
+  "settings": {
+    "name": "NewSite-01-08_1111",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "Sleek",
+      "title": "Sleek",
+      "styling": {}
+    },
+    "versionFirst": "3.10.4",
+    "uniqCompNum": 79,
+    "versionPublish": "3.10.4"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-h",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2016. &nbsp;All rights reserved. Designed by <a href=\"http://myxpress.000webhostapp.com/\">Myxpress Team</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "32px"
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-12",
+          "_params": {
+            "color": "#0899ff",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand text-success\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Myxpress Hub</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Mobile Apps</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Xbox One apps</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H2": {
+              "color": "#3498db"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header1-1a",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1458862768540-8b091824fe2d-2000x1330-55.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Welcome to the Hub",
+          "text": "Of myxpress! here you have full acces to all Our websites!<br>And custom apps!",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-primary\" href=\"#\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-26",
+          "_params": {
+            "showMeta": false,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/4.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "img-responsive mbr-figure--full-width",
+              "src": "@PROJECT_PATH@/assets/images/5596711-sd-1000x554-85.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Myxpress Compitable with Consoles",
+          "text": "<blockquote>Myxpress finaly is compitable with consoles like Xbox or playstation&nbsp;</blockquote><blockquote>Just browse trouch the web browser and type the name of our website.com In and youre done! Only for browsing for good xbox one Apps!</blockquote>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-left btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn Mo</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#3498db",
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_styles": {
+            "H2": {
+              "color": "#3498db",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#000000"
+            },
+            "H6": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "icon1": "fa fa-mobile",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "autoplay": true,
+            "slides": [
+              {
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "cite": "- Rebecca<span>XYZ Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "image": "@PROJECT_PATH@/assets/images/1.png",
+                "active": true
+              },
+              {
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "cite": "- John Doe<span>ABC Company",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "image": "@PROJECT_PATH@/assets/images/2.png",
+                "active": false
+              }
+            ],
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#222222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showSubTitle": true
+          },
+          "_anchor": "header6-23",
+          "title": "News&nbsp;",
+          "text": "We'v got alot of bugs when you want to open the website in youre mobile device like safari Or Google. But we have asked a dutch developer to fix this<br>Thanks alot!<br>-------------<br>Website available on <b>IOS / ANDROID / SAMSUNG / APPLE</b> / MORE DEVICE'S!<br>Cant wait to see it :)<br>------------------------------------------------------------------------------------------------------------------------------------------",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn app-btn btn-info\" href=\"https://www.youtube.com/watch?v=xKM87V5yDI4\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\">&nbsp;Mobile Freely Tech Owen</span><span>Mobile Touch IOS</span></a>  ",
+          "subTitle": "Developer<b> Owen koppenol</b> Fixed The bug A week ago but didnt update the website :D<br>\nSo we did it with the codes he gave us"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_styles": {
+            "H2": {
+              "color": "#3498db",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content3-1i",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Make youre dreams come true with Those Apps / Websites!!",
+          "subTitle": "Sounds cool Free games &amp; Movies but is Warned to be illegal! be careful with cracked games and movies"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1j",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2016. &nbsp;All rights reserved. Designed by <a href=\"http://myxpress.000webhostapp.com/\">Myxpress Team</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1k",
+          "_params": {
+            "color": "#0899ff",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand text-success\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Myxpress Hub</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Mobile Apps</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Xbox One apps</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            ".service-content span": {
+              "color": "#3498DB",
+              "border": "2px solid #3498DB"
+            },
+            ".service-content:hover span": {
+              "background-color": "#3498DB",
+              "border": "2px solid #3498DB",
+              "color": "white"
+            }
+          },
+          "_anchor": "content1-1m",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/2.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000000",
+            "columns": "2",
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true,
+            "iconsColor": "#3498DB",
+            "showIcons": true,
+            "icon1": "fa fa-hdd-o",
+            "icon2": "fa fa-diamond",
+            "icon3": "fa fa-envelope-o"
+          },
+          "title1": "Website / Host",
+          "caption1": "The host may Is not fast!<br>But we can fix that if you guys are liking the websites and others and download games",
+          "button1": "<a data-app-btn=\"true\" href=\"https://myxpress.000webhostapp.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Make youre dream come out with this myxpress site&nbsp;<i class=\"fa fa-angle-right\"></i></a>",
+          "title2": "stay up to data!",
+          "caption2": "With our service's we can help you with problems<br>And others you could send any problems about our apps/sites here!<br>freely+",
+          "button2": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-warning\" data-toolbar=\"-mbrBtnMove\">Freely stay up ;)<i class=\"fa fa-angle-right\"></i></a>",
+          "title3": "AWESOME STATS",
+          "caption3": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-secondary-outline\">Learn More <i class=\"fa fa-angle-right\"></i></a>"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1o",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSocial": false,
+            "showButtons": true
+          },
+          "title": "",
+          "list": "<ul class=\"contact-info\"></ul>",
+          "button2": "<a href=\"#\" data-app-btn=\"true\" data-toolbar=\"-mbrBtnAdd,-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"fa fa-facebook\"></i></a>",
+          "title2": "Problem or Fan? or freely :P",
+          "form": {
+            "action": "leakedmc@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling our form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "button": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-right btn-warning\" data-toolbar=\"-mbrBtnMove\">Send us youre freely assistance</a>"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1p",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2016. &nbsp;All rights reserved. Designed by <a href=\"http://myxpress.000webhostapp.com/\">Myxpress Team</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1q",
+          "_params": {
+            "color": "#0899ff",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand text-success\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Myxpress Hub</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Mobile Apps</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Xbox One apps</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1s",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Sorry but we didnt Anounced it yet please wait!",
+          "subTitle": "Freely Error"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1t",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2016. &nbsp;All rights reserved. Designed by <a href=\"http://myxpress.000webhostapp.com/\">Myxpress Team</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#0899ff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1u",
+          "_params": {
+            "color": "#0899ff",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand text-success\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Myxpress Hub</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Mobile Apps</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\"></span>Xbox One apps</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1v",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Sorry but we didnt Anounced it yet please wait!",
+          "subTitle": "Freely Error"
+        }
+      ]
+    }
+  }
+}
